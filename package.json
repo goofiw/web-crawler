@@ -1,0 +1,23 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Simple web scraper",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/goofiw/web-scraper.git"
+  },
+  "author": "goofiw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goofiw/web-scraper/issues"
+  },
+  "homepage": "https://github.com/goofiw/web-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.57.0"
+  }
+}
