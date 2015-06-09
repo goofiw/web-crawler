@@ -1,9 +1,9 @@
 var request = require('request');
 
-var html_loader = function(url) {
+exports.html_loader = function(url, callback) {
   request(url, function(err, res, body) {
-	if(err) { throw 'url rotten beans'};
-	return body;
+		if(err) { throw 'url rotten beans'; };
+		return callback(body);
 	});
 }
-export.module(html_loader);
+
